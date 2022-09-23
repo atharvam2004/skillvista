@@ -1,0 +1,171 @@
+body{
+    overflow-x: hidden;
+}
+#navbar-logo{
+    width: 151px;
+height: 36px;
+left: 136px;
+top: 38px;
+margin-right: 40rem
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#navbar-item{
+
+    height: 22px;
+    position: relative;
+    margin-right: 15%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    
+    color: #000000;
+    
+
+}
+#navbar-main{
+    background-color: transparent!important;
+    position: relative;
+    z-index: 2;
+   
+}
+.leftshape{
+    position: absolute;
+    height: 17rem;
+    top: -1.5px!important;
+
+   
+}    
+.people{
+    position: absolute;
+    height: 41rem;
+    top: -1.5px!important;
+    right: -1.5px!important
+    ;
+
+    /* margin-right: 0%!important;
+float: right; */
+
+}
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+#welcome{
+    height: 27px;
+    
+    /* font-family: 'Inter'; */
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: rgb(255, 200, 0);
+    
+    
+    -webkit-text-stroke: 0.1px white;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+#digital{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 60px;
+    /* or 125% */
+    
+    
+    color: rgba(29, 110, 231, 0.88);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 white, 0 -1px white;
+
+ 
+}
+#ensuring{
+   
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1rem;
+    
+    color: #1D6EE7;
+    text-shadow: -1px 1px 0 #ffffff,
+	1px 1px 0 #ffffff,
+	1px -1px 0 #ffffff,
+	-1px -1px 0 #ffffff;    
+}
+.Home-titles{
+    top: 9rem;
+    position: relative;
+    left: 7rem;
+
+}
+@media only screen and (max-width: 600px) {
+    .Home-titles{
+        left: 1rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .left-shape{
+       width: 18%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .people{
+    height: 49%;
+    }
+}
+.how-can{
+    left: 25rem;
+    top: -3rem;
+    position: relative;
+}
+.how-can-we{
+    left: 7rem;
+    top: 23rem;
+    position: relative;
+}
+.how-can-image{
+    height: 8rem;
+    margin: 0 2% ;
+}
+#how-can-text{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 27px;
+/* or 111% */
+background: #FFC700;
+background: linear-gradient(to right, #FFC700 0%, #1D6EE7 11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+#help-hr{
+    width: 11rem!important;
+}
+
+.intersect-div{
+    position: relative;
+    top: 19rem;
+}
+.Ellpise2{
+    left: 0%;
+    position: absolute;
+    width: 27rem;
+    z-index: 0;
+    top: 5rem;
+}
+.Intersect{
+    left: 2rem;
+    top: 8rem;
+    z-index: 15;
+    opacity: 1;
+    position: relative;
+    width: 26rem;
+
+}
