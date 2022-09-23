@@ -6,9 +6,19 @@ body{
 height: 36px;
 left: 136px;
 top: 38px;
-margin-right: 40rem
 }
+@media only screen and (min-width: 1025px) {
+    #navbar-logo{
+        margin-right: 40rem;
+
+    }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+/* .navbar-light .navbar-toggler{
+    background-color: #aa8b1d;
+    color: #b8ac68;
+} */
 
 #navbar-item{
 
@@ -30,6 +40,10 @@ margin-right: 40rem
     background-color: transparent!important;
     position: relative;
     z-index: 2;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    width: 100%;
+
    
 }
 .leftshape{
@@ -105,18 +119,18 @@ float: right; */
     left: 7rem;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
     .Home-titles{
         left: 4px;
         top: 5rem;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
     .left-shape{
        width: 18%;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
     .people{
     height: 49%;
     }
@@ -195,7 +209,7 @@ width: 7rem;
 .container-intersect{
     display: relative;
 }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 820px) {
         .Ellpise2{
             visibility: hidden;
             clear: both;

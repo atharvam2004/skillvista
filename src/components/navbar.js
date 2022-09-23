@@ -11,7 +11,6 @@ import Softdev from "../images/Softdev.png";
 import Webdev from "../images/Webdev.png";
 import Trainings from "../images/Trainings.png";
 
-import Ellipse2 from "../images/Ellipse2.png";
 import Intersect from "../images/Intersect.png";
 
 import Group1 from "../images/Group1.png";
@@ -36,7 +35,7 @@ export default function navbar() {
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto">
+              <Nav className="me-auto">
                 <Nav.Link href="#home" id="navbar-item">
                   Home
                 </Nav.Link>
@@ -90,7 +89,6 @@ export default function navbar() {
       <div className="container-intersect" >
         <div className="intersect-div">
           <img alt="mage8"  className="Intersect" src={Intersect} />
-          <img alt="mage9"  className="Ellpise2" src={Ellipse2} />
         </div>
         <div className="our-work">
           <div className="work-sections">
