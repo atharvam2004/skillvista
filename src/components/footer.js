@@ -1,11 +1,10 @@
 import React from "react";
+import "../components/footer.css";
 
 const Footer = () => (
     <div>
   <div className="footer">
-    gshsgb
-    sghsgh
-    gshgsh
+
   </div>
     </div>
 

@@ -297,7 +297,8 @@ margin-top: 30%;     }
 
 
 .our-clients{
-    margin-top: 7rem;
+    margin: 20% 0;
+
 }
 .Rectangle1{
     background-image: url("../images/Rectangle1.png");
@@ -306,6 +307,7 @@ height: 26rem;
 background-size: cover;
 display: block;
 text-align: center;
+opacity: 0.7;
 
 
 }
@@ -316,6 +318,7 @@ text-align: center;
 height: 26rem;
 
 text-align: center;
+opacity: 0.7;
 
 display: block;
 
@@ -323,14 +326,16 @@ display: block;
 .Rectangles{
     display: flex;
     flex-direction: row;
-
+     justify-content: center;
+     margin-left: 15%;
 }
 .ellipse{
     float: right;
-    width: 38rem;
+    width: 40rem;
     position: absolute;
     right: 0;
     z-index: -1;
+    margin-top: -15rem;
 }
 .man1{
     position: relative;
@@ -376,4 +381,26 @@ height: 467px;
     .our-projects{
         flex-direction: column;
     }
+    .Rectangles{
+    
+         margin-left: 0%;
+    }
+    .contact-us{
+
+        width: 15rem;
+    height: 24rem;
+    margin: 5% auto;
+    }
+    .ellipse{
+       margin-top: 10rem;
+        z-index: -1;
+    }
+}
+
+.contact-us{
+    background-image: url("../images/contact.png");
+    background-size: contain;
+    width: 61%;
+height: 24%;
+margin: 5% auto;
 }

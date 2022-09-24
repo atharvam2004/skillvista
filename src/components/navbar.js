@@ -26,6 +26,9 @@ import Group5 from "../images/Group5.png";
 import man2 from "../images/man2.png";
 import man1 from "../images/man1.png";
 
+import contact from "../images/contact.png";
+
+
 import "../components/navbar.css";
 
 export default function navbar() {
@@ -189,6 +192,15 @@ export default function navbar() {
             </Row>
           </Container>
         </div>
+      </div>
+
+
+      <div className="contact-us-div">
+      <div className="contact-us">
+
+
+      </div>
+
       </div>
     </div>
   );
