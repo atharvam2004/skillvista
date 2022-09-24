@@ -21,9 +21,9 @@ import Group3 from "../images/Group3.png";
 import Group4 from "../images/Group4.png";
 import Group5 from "../images/Group5.png";
 
-// import Group6 from "../images/Group6.png";
-// import Group7 from "../images/Group7.png";
-// import Group8 from "../images/Group8.png";
+import Group6 from "../images/Group6.png";
+import Group7 from "../images/Group7.png";
+import Group8 from "../images/Group8.png";
 
 import man2 from "../images/man2.png";
 import man1 from "../images/man1.png";
@@ -95,6 +95,9 @@ export default function navbar() {
           <img alt="mage7" className="how-can-image" src={Appdev} />
         </div>
       </div>
+
+
+      
       <div className="container-intersect">
         <div className="intersect-div">
           <img alt="mage8" className="Intersect" src={Intersect} />
@@ -138,11 +141,12 @@ export default function navbar() {
         <div id="how-can-text">
           <h4>Our Projects</h4>
           <hr id="help-hr"></hr>
-          {/* <div>
-            <img alt="Group7" className="Group7" src={Group7} />
-            <img alt="Group6" className="Group7" src={Group6} />
-            <img alt="Group8" className="Group7" src={Group8} />
-          </div> */}
+          <div className="our-projects">
+            <div className="MobDev"></div>
+            <div className="WebDev"></div>
+            <div className="SoftDev"></div>
+
+          </div>
         </div>
       </div>
 
