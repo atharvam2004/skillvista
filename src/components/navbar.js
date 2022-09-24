@@ -21,9 +21,7 @@ import Group3 from "../images/Group3.png";
 import Group4 from "../images/Group4.png";
 import Group5 from "../images/Group5.png";
 
-import Group6 from "../images/Group6.png";
-import Group7 from "../images/Group7.png";
-import Group8 from "../images/Group8.png";
+
 
 import man2 from "../images/man2.png";
 import man1 from "../images/man1.png";
