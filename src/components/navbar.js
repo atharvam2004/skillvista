@@ -21,12 +21,8 @@ import Group3 from "../images/Group3.png";
 import Group4 from "../images/Group4.png";
 import Group5 from "../images/Group5.png";
 
-
-
 import man2 from "../images/man2.png";
 import man1 from "../images/man1.png";
-
-
 
 import "../components/navbar.css";
 
@@ -96,8 +92,6 @@ export default function navbar() {
         </div>
       </div>
 
-
-      
       <div className="container-intersect">
         <div className="intersect-div">
           <img alt="mage8" className="Intersect" src={Intersect} />
@@ -142,10 +136,9 @@ export default function navbar() {
           <h4>Our Projects</h4>
           <hr id="help-hr"></hr>
           <div className="our-projects">
-            <div className="MobDev"></div>
-            <div className="WebDev"></div>
-            <div className="SoftDev"></div>
-
+            <div className="MobDev" id="dev-div"></div>
+            <div className="WebDev" id="dev-div"></div>
+            <div className="SoftDev" id="dev-div"></div>
           </div>
         </div>
       </div>
@@ -168,24 +161,29 @@ export default function navbar() {
                 <div className="Rectangle1">
                   <img alt="man1" className="man1" src={man1} />
                   <br />
-                  <p className="client-review"> An IT startup, good, knowledgeable and collaborative staff,
-                  providing business softwares and android app services. Also
-                  provides Digital Marketing, ERP Softwares, E-commerce
-                  websites, Android apps all are best products. They provide
-                  24/7 service support to their clients. Happy clients from all
-                  over Maharashtra State.</p>
-                 
+                  <p className="client-review">
+                    {" "}
+                    An IT startup, good, knowledgeable and collaborative staff,
+                    providing business softwares and android app services. Also
+                    provides Digital Marketing, ERP Softwares, E-commerce
+                    websites, Android apps all are best products. They provide
+                    24/7 service support to their clients. Happy clients from
+                    all over Maharashtra State.
+                  </p>
                 </div>
               </Col>
               <Col lg={4} md={12}>
                 <div className="Rectangle2">
                   <img alt="man2" className="man1" src={man2} />
-                  <p className="client-review"> An IT startup, good, knowledgeable and collaborative staff,
-                  providing business softwares and android app services. Also
-                  provides Digital Marketing, ERP Softwares, E-commerce
-                  websites, Android apps all are best products. They provide
-                  24/7 service support to their clients. Happy clients from all
-                  over Maharashtra State.</p>
+                  <p className="client-review">
+                    {" "}
+                    An IT startup, good, knowledgeable and collaborative staff,
+                    providing business softwares and android app services. Also
+                    provides Digital Marketing, ERP Softwares, E-commerce
+                    websites, Android apps all are best products. They provide
+                    24/7 service support to their clients. Happy clients from
+                    all over Maharashtra State.
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -193,13 +191,18 @@ export default function navbar() {
         </div>
       </div>
 
-
       <div className="contact-us-div">
-      <div className="contact-us">
-
-
-      </div>
-
+        <div className="contact-us">
+          <div className="contact-us-content">
+          Mo. No :  9834343667<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            9028529945<br />
+        Email Id : inamdar.online@gmail.com<br />
+        Dr. Shabana Inamdar<br />
+        Professor, Academics Guide   <br />       
+        </div>
+          </div>
+  
       </div>
     </div>
   );
