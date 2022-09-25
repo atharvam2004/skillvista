@@ -13,7 +13,7 @@ export default function navbar() {
         <Navbar bg="light" expand="lg" id="navbar-main">
           <Container>
             <Navbar.Brand id="navbar-logo">
-              <img alt="mage3" src={logo} />
+              <img alt="age3" src={logo} />
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
