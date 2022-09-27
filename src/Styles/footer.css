@@ -8,4 +8,12 @@ width: 100%;
 background-image: url("../assets/img/footer.png");
 background-size:cover;
   }
+  #footer-span{
+    display: block;
+}
+.footer-content{
+    margin: 10% 10%;
+    font-family: 'Poppins';
+
+}
   
