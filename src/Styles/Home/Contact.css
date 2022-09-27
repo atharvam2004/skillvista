@@ -5,6 +5,8 @@
   height: 24rem;
   margin: 5% auto;
   position: relative;
+  border-radius: 15px;
+  border: 1px black;
 }
 .contact-us-content {
   position: absolute;
