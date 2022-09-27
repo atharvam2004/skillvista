@@ -72,16 +72,17 @@
     position: relative;
     left: 1rem;
     width: 90%;
-    margin: 0%;
+    margin: 12rem auto;
   }
 
   .Group1 {
     width: 20%;
+    margin-bottom: 5%;
   }
 
   .Group-spans {
     width: 75%;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0.5rem 1rem;
   }
 }

@@ -1,0 +1,39 @@
+.website-dev{
+    background-image: url("../../assets/img/webservices.png");
+    background-size: cover;
+    width: 358px;
+height: 516px;
+}
+.app-dev{
+    background-image: url("../../assets/img/appservices.png");
+    background-size: cover;
+    width: 358px;
+height: 516px;
+}
+.software-dev{
+    background-image: url("../../assets/img/softservices.png");
+    background-size: cover;
+    width: 358px;
+height: 516px;
+}
+.development-div{
+    position: relative;
+    margin: 1%;
+    transition: all 0.2s ease-in-out;
+    position: static;
+    display: flex;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#development-card{
+    margin: 3%;
+    transition: all 0.2s ease-in-out;
+    position: static;
+    border-radius: 9px;
+}
+#development-card:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }

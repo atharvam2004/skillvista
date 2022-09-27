@@ -43,4 +43,8 @@
   .our-projects {
     flex-direction: column;
   }
+  #dev-div {
+    margin: 10% auto ;
+    width: 90%;
+  }
 }

@@ -9,7 +9,7 @@ body {
 }
 @media only screen and (min-width: 1025px) {
   #navbar-logo {
-    margin-right: 40rem;
+    margin-right: 60%;
   }
 }
 
@@ -22,14 +22,15 @@ body {
 #navbar-item {
   height: 22px;
   position: relative;
-  margin-right: 15%;
+  margin-right: 30%;
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  
   line-height: 19px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-
   color: #000000;
 }
 #navbar-main {
