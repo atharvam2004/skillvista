@@ -31,17 +31,15 @@
   .how-can-we {
     top: 15rem;
     position: relative;
-    width: 70%;
   }
   .how-can {
-    left: 5rem;
     top: -3rem;
     position: relative;
-    width: 50%;
     text-align: center;
     object-fit: cover;
-    margin: auto;
+    margin:    auto;
     display: flex;
+    left: 0%;
     flex-direction: column;
     align-items: center;
   }
@@ -49,15 +47,24 @@
     margin-left: 3rem;
   }
   .how-can-image {
-    height: 5rem;
+    height: 10rem;
     object-fit: cover;
     display: block;
-    margin: 4% 0;
+    margin: 4% auto;
     text-align: center;
     margin-top: 2rem;
   }
   .how-can-image1 {
-    width: 5rem;
+    width: 10rem;
     margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .how-can-image {
+    height: 5rem;
+
+  }
+  .how-can-image1 {
+    width: 5rem;
   }
 }
