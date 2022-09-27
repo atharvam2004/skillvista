@@ -52,37 +52,8 @@
   margin: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .container-intersect {
-    margin-top: 30%;
-  }
-  .Intersect {
-    visibility: hidden;
-    clear: both;
-    float: left;
 
-    display: none;
-  }
-
-  .our-work {
-    position: relative;
-    width: 90%;
-    margin: 12rem auto;
-  }
-
-  .Group1 {
-    width: 20%;
-    margin-bottom: 5%;
-  }
-
-  .Group-spans {
-    width: 75%;
-    font-size: 15px;
-    padding: 0.5rem 1rem;
-  }
-}
-
-@media only screen and (min-device-width: 768px)
+@media only screen and (max-device-width: 820px)
 {
   .container-intersect {
     margin-top: 30%;
@@ -108,7 +79,36 @@
 
   .Group-spans {
     width: 75%;
-    font-size: 15px;
+    font-size: 18px;
     padding: 1.5rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-intersect {
+    margin-top: 30%;
+  }
+  .Intersect {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+
+  .our-work {
+    position: relative;
+    width: 95%;
+    margin: 12rem auto;
+  }
+
+  .Group1 {
+    width: 20%;
+    margin-bottom: 5%;
+  }
+
+  .Group-spans {
+    width: 75%;
+    font-size: 15px;
+    padding: 0.7rem 1rem;
   }
 }
