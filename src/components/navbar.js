@@ -29,7 +29,7 @@ export default function navbar() {
                 <Link to={"/#"} id="navbar-item">
                   OurWork
                 </Link>
-                <Link to={"/#"} id="navbar-item">
+                <Link to={"/contactus"} id="navbar-item">
                   Contact
                 </Link>
               </Nav>
