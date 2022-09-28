@@ -16,4 +16,11 @@ background-size:cover;
     font-family: 'Poppins';
 
 }
+@media only screen and (max-device-width: 820px){
+  .footer-content{
+    margin: 30% 10%;
+    font-family: 'Poppins';
+
+}
+}
   

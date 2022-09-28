@@ -62,7 +62,7 @@
 @media only screen and (max-device-width: 600px){
   .our-projects {
     flex-direction: column;
-    margin-left: -2rem;
+    margin-left: -3rem;
   }
   #dev-div {
     margin: 10% auto ;
