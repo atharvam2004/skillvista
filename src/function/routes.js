@@ -6,6 +6,8 @@ import App from "../App";
 import HomePage from '../pages/Home';
 import ServicePage from '../pages/services';
 import ContactusPage from '../pages/Contactus';
+import TermsPage from '../pages/termsconditions';
+
 
 
 
@@ -18,6 +20,8 @@ const ConfigRoutes = () => {
             <Route path="/home" element={<HomePage />}  />
             <Route path="/services" element={<ServicePage />} />
             <Route path="/contactus" element={<ContactusPage />} />
+            <Route path="/terms" element={<TermsPage />} />
+
 
 ``
         

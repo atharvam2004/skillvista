@@ -37,12 +37,6 @@ export default function navbar() {
           </Container>
         </Navbar>
 
-      
-      
-
-     
-
-      
     </div>
   );
 }
