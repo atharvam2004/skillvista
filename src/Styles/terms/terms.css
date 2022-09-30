@@ -1,0 +1,16 @@
+.term-header{
+    background-image: url("../../assets/img/Rectangle35.svg");
+    background-size: cover;
+    height: 25rem;
+    margin-top: -10rem;
+
+}
+#terms-title{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+
+color: rgba(255, 255, 255, 0.9);
+text-align: center;}
