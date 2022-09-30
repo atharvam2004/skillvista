@@ -15,7 +15,7 @@ function termscontent() {
           carefully before using this website.
         </p>
 
-        <p>General Provisions</p>
+        <b>General Provisions</b>
 
         <p>
           This website is owned and operated by [enter business name] (enser DBA
@@ -32,14 +32,14 @@ function termscontent() {
           conditions contained on this page is subject to change at any time.
         </p>
 
-        <p>Age Requirements</p>
+        <b>Age Requirements</b>
 
         <p>
           You must be at least 18 to use Our website, templates, courses, and
           products
         </p>
 
-        <p>Intellectual Property Notice</p>
+        <b>Intellectual Property Notice</b>
 
         <p>
           All text, photographs graphics and other materials in this site are
