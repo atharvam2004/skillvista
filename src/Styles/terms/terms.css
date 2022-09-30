@@ -21,7 +21,7 @@ text-align: center;
 }
 @media only screen and (max-width: 820px) {
     .term-header{
-        padding: 10% 0;
+        padding: 20% 0;
 
     }    
 }
