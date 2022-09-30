@@ -9,34 +9,25 @@ import "../Styles/navbar.css";
 
 export default function navbar() {
   return (
-    <div>
-    
-        <Navbar bg="light" expand="lg" id="navbar-main">
-          <Container>
-            <Navbar.Brand id="navbar-logo">
-              <img alt="age3" src={logo} />
-            </Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-              <Link to={"/home"} id="navbar-item">
-                  Home
-                </Link>
-                <Link to={"/services"} id="navbar-item">
-                  Services
-                </Link>
-                <Link to={"/#"} id="navbar-item">
-                  OurWork
-                </Link>
-                <Link to={"/contactus"} id="navbar-item">
-                  Contact
-                </Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+    <>
+      <Navbar id="navbar-main" expand="lg">
+        <Container>
+          <Link to={"/"}><Navbar.Brand id="navbar-logo">
+            <img alt="age3" src={logo} />
+          </Navbar.Brand></Link>
 
-    </div>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="justify-content-end" style={{ width: "100%" }}>
+              <Link id="navbar-item" to={"/"}>Home</Link>
+              <Link id="navbar-item" to={"/services"}>Services</Link>
+              <Link id="navbar-item" to={"#"}>Our Work</Link>
+              <Link id="navbar-item" to={"/contactus"}>Contact</Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   );
 }
