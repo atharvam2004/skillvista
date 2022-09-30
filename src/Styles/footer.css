@@ -24,8 +24,18 @@ font-family: 'Poppins';
 }
 @media only screen and (max-device-width: 820px){
   .footer-content{
-    margin: 30% 10%;
+    margin: 40% auto;
+    margin-bottom: 0;
     font-family: 'Poppins';
+    flex-direction: column;
+
+
+}
+.footer{
+  height: 100%;
+  width: 100%;
+  background-size:cover;
+  bottom: 0%;
 
 }
 }
