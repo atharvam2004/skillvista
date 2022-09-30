@@ -7,12 +7,13 @@ function Projects() {
       <div id="how-can-text">
         <h4>Our Projects</h4>
         <hr id="help-hr"></hr>
-        <div className="our-projects">
+    
+      </div>
+      <div className="our-projects">
           <div className="MobDev" id="dev-div"></div>
           <div className="WebDev" id="dev-div"></div>
           <div className="SoftDev" id="dev-div"></div>
         </div>
-      </div>
     </div>
   );
 }

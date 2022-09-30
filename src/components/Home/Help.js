@@ -18,7 +18,7 @@ function Help() {
       </div>
 
       <div className="how-can">
-        <img alt="mage4" className="how-can-image1" src={Trainings} />
+        <img alt="mage4" className="how-can-image" src={Trainings} />
         <img alt="mage5" className="how-can-image" src={Webdev} />
 
         <img alt="mage6" className="how-can-image" src={Softdev} />

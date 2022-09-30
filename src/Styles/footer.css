@@ -20,9 +20,8 @@ font-family: 'Poppins';
     display: flex;
     flex-direction: row;
   
-
 }
-@media only screen and (max-device-width: 820px){
+@media only screen and (max-device-width: 600px){
   .footer-content{
     margin: 40% auto;
     margin-bottom: 0;
@@ -40,7 +39,7 @@ font-family: 'Poppins';
 }
 }
 #footer-divs{
-  margin: 5%;
+  margin: 3%;
 }
 .copyright-footer{
 text-align: center;

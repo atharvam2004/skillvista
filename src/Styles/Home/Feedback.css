@@ -1,5 +1,5 @@
 .our-clients {
-  margin: 20% 0;
+  margin: 10% 0;
 }
 
 .ellipse {
@@ -8,7 +8,7 @@
   position: absolute;
   right: 0;
   z-index: -1;
-  margin-top: -15rem;
+  margin-top: -10rem;
 }
 
 .Rectangles {
@@ -62,5 +62,6 @@
   }
   .Rectangles {
     margin: 0 auto;
+    width: 100%;
   }
 }

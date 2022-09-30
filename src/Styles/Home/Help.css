@@ -1,15 +1,16 @@
 .how-can {
-  left: 30%;
   top: 0rem;
-  position: relative;
+width: 100%;
+display: flex;
+justify-content: flex-end;
 }
 .how-can-we {
   top: 23rem;
   position: relative;
 }
 .how-can-image {
-  height: 1%;
-  margin: 0 0 0 2%;
+  margin: 0 3% 0 1%;
+  height: 8rem;
   position: relative;
 }
 #how-can-text {
@@ -36,7 +37,6 @@
     top: -3rem;
     position: relative;
     text-align: center;
-    object-fit: cover;
     margin:    auto;
     display: flex;
     left: 0%;
@@ -47,7 +47,7 @@
     margin-left: 3rem;
   }
   .how-can-image {
-    height: 10rem;
+    height: 10%;
     object-fit: cover;
     display: block;
     margin: 4% auto;
@@ -55,7 +55,7 @@
     margin-top: 2rem;
   }
   .how-can-image1 {
-    width: 10rem;
+    height: 10%;
     margin-top: 3rem;
   }
 }
@@ -64,7 +64,5 @@
     height: 5rem;
 
   }
-  .how-can-image1 {
-    width: 5rem;
-  }
+
 }
