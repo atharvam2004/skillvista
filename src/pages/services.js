@@ -5,6 +5,8 @@ import Servicesdetails from "../components/services/Servicesdetails";
 import Navbar1 from "../components/navbar";
 import Footer from "../components/footer";
 
+import Projectguid from "../components/services/Projectguid";
+
 function Services() {
   return (
     <>
@@ -12,6 +14,8 @@ function Services() {
       <Headerservices />
       <Development />
       <Servicesdetails />
+      <Projectguid />
+
       <Footer />
     </>
   );
