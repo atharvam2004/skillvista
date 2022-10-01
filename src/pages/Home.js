@@ -4,7 +4,6 @@ import Help from '../components/Home/Help';
 import Services from "../components/Home/Services";
 import Projects from "../components/Home/Projects";
 import Feedback from "../components/Home/Feedback";
-import Contact from '../components/Home/Contact';
 
 function Home() {
   return (
@@ -14,7 +13,6 @@ function Home() {
       <Services />
       <Projects />
       <Feedback />
-      <Contact />
     </>
   )
 }

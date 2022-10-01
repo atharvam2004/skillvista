@@ -65,3 +65,15 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 600px) {
+  
+.Rectangle1 {
+  width: 90%;
+
+
+}
+.Rectangle2 {
+  width: 90%;
+
+}
+}

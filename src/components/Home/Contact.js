@@ -11,7 +11,7 @@ function Contact() {
         <hr id="help-hr"></hr>
       </div> */}
 
-      <div className="contact-us">
+      {/* <div className="contact-us">
         <div className="contact-links">
           <a href="https://twitter.com/43Meher/">
             <svg
@@ -79,7 +79,7 @@ function Contact() {
           <br />
           Professor, Academics Guide <br />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

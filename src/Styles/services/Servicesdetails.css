@@ -1,48 +1,102 @@
-.Servicesdetails-div{
-margin: 2%;
-
+.Servicesdetails-div {
+  margin: 2%;
 }
-.Services-content{
-    width: 19rem;
-    height: 20rem;
-    padding: 1rem;
-    border-radius: 10px;
-    background: linear-gradient(0deg, rgba(255, 199, 0, 0.25) 29.95%, rgba(255, 255, 255, 0) 108.55%), linear-gradient(0deg, rgba(255, 199, 0, 0.25) 29.95%, rgba(255, 255, 255, 0) 108.55%), linear-gradient(0deg, rgba(255, 199, 0, 0.25) 29.95%, rgba(255, 255, 255, 0) 108.55%), linear-gradient(0deg, rgba(255, 199, 0, 0.25) 29.95%, rgba(255, 255, 255, 0) 108.55%);
+.Services-content {
+  width: 25rem;
+  height: 30rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 209, 255, 0.6) 29.95%,
+    rgba(255, 255, 255, 0) 108.55%
+  );
 }
-.Group2{
-    margin-left: 2%;
-    margin-bottom: 3px;
+.Group2 {
+  margin-left: 2%;
+  margin-bottom: 3px;
 }
-.Servicesdetails-main-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.Servicesdetails-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 820px) {
-    .Servicesdetails-main-div{
-        flex-direction: column;
-        justify-content: center;
+  .Servicesdetails-main-div {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Servicesdetails-div {
+    margin: 2% auto;
+  }
+  .Services-content {
+    width: 99%;
+  }
+}
 
-    }
-    .Servicesdetails-div{
-        margin: 2% auto;
-        
-        }
+.Services-content:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #a79292;
+  background-color: white;
+}
+.Dataimg {
+  width: 24rem;
+  height: 24rem;
+}
+.Data-content {
+  width: 24rem;
+  height: 24rem;
+  padding: 2rem;
+  background: linear-gradient(
+    126.12deg,
+    rgba(0, 97, 241, 0.91) 24.66%,
+    #00d1ff 100%
+  );
+  border-radius: 10px;
+}
+
+.services-data {
+  display: flex;
+  flex-direction: row;
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #FFFFFF;
+
+  justify-content: center;
+}
+.services-data-divs {
+  margin: 0%;
 }
 
 
-
-
-
-.Services-content:hover {
-    transition: all 0.2s ease-out;
-    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-    top: -4px;
-    border: 1px solid #a79292;
-    background-color: white;
-
-  }
-
-
-
+@media only screen and (max-width: 820px) {
+    .services-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0% auto;
+       
+    }
+    .services-data-divs {
+        margin: 1% auto;
+    }
+    .Dataimg {
+        width: 22rem;
+        height: 22rem;
+      }
+      .Data-content {
+        width: 22rem;
+        height: 22rem;
+    }
+ 
+}

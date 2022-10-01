@@ -21,7 +21,7 @@ font-family: 'Poppins';
     flex-direction: row;
   
 }
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 820px){
   .footer-content{
     margin: 40% auto;
     margin-bottom: 0;
@@ -39,12 +39,14 @@ font-family: 'Poppins';
 }
 }
 #footer-divs{
-  margin: 3%;
+  margin: 2%;
+  padding: 1%;
 }
 .copyright-footer{
 text-align: center;
 }
 #contact-icon{
-  color: black!important;
 }
-  
+.contact-links2{
+width: 9rem;
+}
