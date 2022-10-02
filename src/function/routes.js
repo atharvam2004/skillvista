@@ -6,7 +6,7 @@ import ServicePage from "../pages/services";
 import ContactusPage from "../pages/Contactus";
 import TermsPage from "../pages/termsconditions";
 
-import ProjectsPage from "../pages/Ourprojects";
+// import ProjectsPage from "../pages/Ourprojects";
 
 const ConfigRoutes = () => {
   return (
