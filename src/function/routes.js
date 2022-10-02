@@ -16,7 +16,7 @@ const ConfigRoutes = () => {
         <Route path="/services" element={<ServicePage />} />
         <Route path="/contactus" element={<ContactusPage />} />
         <Route path="/terms" element={<TermsPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
+        {/* <Route path="/projects" element={<ProjectsPage />} /> */}
         ``
       </Routes>
     </>

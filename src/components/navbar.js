@@ -14,7 +14,7 @@ export default function navbar() {
       <Navbar id="navbar-main" expand="lg">
         <Container>
           <Link to={"/"}><Navbar.Brand id="navbar-logo">
-            <img alt="age3" src={logo} />
+            <img alt="age3" id="logo-navbar" src={logo} />
           </Navbar.Brand></Link>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,7 +22,7 @@ export default function navbar() {
             <Nav className="justify-content-end" style={{ width: "100%" }}>
               <Link id="navbar-item" to={"/"}>HOME</Link>
               <Link id="navbar-item" to={"/services"}>SERVICES</Link>
-              <Link id="navbar-item" to={"/projects"}>OUR WORK</Link>
+              {/* <Link id="navbar-item" to={"/projects"}>OUR WORK</Link> */}
               <Link id="navbar-item" to={"/contactus"}>CONTACT US</Link>
             </Nav>
           </Navbar.Collapse>

@@ -2,7 +2,6 @@ import React from "react";
 import "../../Styles/services/development.css";
 import trainings from "../../assets/img/trainservices.png";
 
-
 function development() {
   return (
     <>
@@ -22,9 +21,11 @@ function development() {
           <div className="dev-text">
             <h5 className="dev-header">Mobile App Development</h5>
             <p className="dev-para">
-              Software application development is the process used to design,
-              create, and support computer software. It is often done by people
-              who have a background in computer programming
+              Mobile devices across the globe are being used for varied
+              purposes. There is need to utilise latest technologies and stay
+              adrift of this rapidly changing scenario. If website was a way to
+              increase your ROI in the last decade, then custom mobile
+              application is the name of the game in the present while.
             </p>
           </div>
         </div>
@@ -41,7 +42,7 @@ function development() {
         </div>
       </div>
       <div className="trainings-div">
-      <img alt="mageq" className="training-img" src={trainings} />
+        <img alt="mageq" className="training-img" src={trainings} />
         <p className="dev-para2">
           Academic training is a form of work authorization available to J-1
           students, and is for paid and unpaid work off-campus. The training

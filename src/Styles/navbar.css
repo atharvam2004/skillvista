@@ -3,49 +3,6 @@
 body {
   overflow-x: hidden;
 }
-/* #navbar-logo {
-  width: 151px;
-  height: 36px;
-  left: 136px;
-  top: 38px;
-}
-@media only screen and (min-width: 1025px) {
-  #navbar-logo {
-    margin-right: 60%;
-  }
-}
-
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-
-#navbar-item {
-  height: 22px;
-  position: relative;
-  margin-right: 30%;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  z-index: 3;
-  line-height: 19px;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  color: #000000;
-}
-#navbar-main {
-  background-color: transparent !important;
-  position: relative;
-  z-index: 2;
-  position: fixed;
-  backdrop-filter: blur(10px);
-  width: 100%;
-}
-
-.me-auto{
-    margin-left: -10rem;
-} */
-
-
-
 
 #navbar-logo {
   width: 151px;
@@ -82,7 +39,7 @@ body {
    text-shadow: none;
    color: #a2f9ff;
    border:1px #000000;
-   background: rgba(0, 0, 0, 0.171);
+   background: rgba(0, 62, 177, 0.699);
    box-sizing: border-box;
    position: relative;
    color: #f4f4f4;
@@ -93,7 +50,31 @@ body {
    border: none;
    transition: 0.3s;
    opacity: 0.8;
+border-radius: 5px;
 
+}
+
+@media only screen and (max-device-width: 820px){
+  #navbar-item {
+
+     text-shadow: none;
+     margin: 0.5rem auto;
+     padding: 1rem;
+     width: 100%;
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;     
+     
+
+   }
+   
+#navbar-main {
+  background-color: white !important;
+  z-index: 2;
+  padding: 3% 0;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
 
 }
 
