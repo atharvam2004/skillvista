@@ -20,10 +20,10 @@ export default function navbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-              <Link id="navbar-item" to={"/"}>Home</Link>
-              <Link id="navbar-item" to={"/services"}>Services</Link>
-              <Link id="navbar-item" to={"/projects"}>Our Work</Link>
-              <Link id="navbar-item" to={"/contactus"}>Contact</Link>
+              <Link id="navbar-item" to={"/"}>HOME</Link>
+              <Link id="navbar-item" to={"/services"}>SERVICES</Link>
+              <Link id="navbar-item" to={"/projects"}>OUR WORK</Link>
+              <Link id="navbar-item" to={"/contactus"}>CONTACT US</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

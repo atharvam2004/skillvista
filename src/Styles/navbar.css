@@ -75,9 +75,8 @@ body {
 }
 /* Style 3: Just animate the :after element's width from 0 to 100% */
 
-#navbar-item:after {
 
-}
+
 #navbar-item:hover{
 
    text-shadow: none;
@@ -92,7 +91,7 @@ body {
    cursor: pointer;
    outline: 0;
    border: none;
-   
+   transition: 0.3s;
    opacity: 0.8;
 
 
