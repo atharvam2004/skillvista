@@ -79,8 +79,12 @@ flex-direction: column;
             height: 9rem;
         }
         .Projectguide-div {
- 
+           width: 18rem;
         }
+        .Projectguideimg{
+            width: 18rem;
+        }
+        
 
 
 }
