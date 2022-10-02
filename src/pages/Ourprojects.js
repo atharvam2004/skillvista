@@ -11,7 +11,6 @@ function Ourprojects() {
       <Navbar1 />
       <Headerprojects />
       <Projectcontent />
-
       <Footer />
     </>
   );

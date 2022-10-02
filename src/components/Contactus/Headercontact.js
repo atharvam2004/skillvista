@@ -70,11 +70,6 @@ function Headerservices() {
             </a>
           </div>
           <div className="contact-us-content">
-            {/* Mo. No : 98XXX43667
-          <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          90XXX29945
-          <br /> */}
             <b> Email Id:</b> <br />
             inamdar.online@gmail.com
             <br />
