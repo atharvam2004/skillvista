@@ -66,11 +66,37 @@ body {
  text-decoration: none;
  margin-right: 3rem;
  font-family: "Roboto";
+ padding: 0.5% 2%;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: #000000;
 }
+/* Style 3: Just animate the :after element's width from 0 to 100% */
+
+#navbar-item:after {
+
+}
+#navbar-item:hover{
+
+   text-shadow: none;
+   color: #a2f9ff;
+   border:1px #000000;
+   background: rgba(0, 0, 0, 0.171);
+   box-sizing: border-box;
+   position: relative;
+   color: #f4f4f4;
+   box-sizing: border-box;
+   position: relative;
+   cursor: pointer;
+   outline: 0;
+   border: none;
+   
+   opacity: 0.8;
+
+
+}
+
 
 
