@@ -99,4 +99,17 @@ color: #FFFFFF;
         height: 22rem;
     }
  
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .Dataimg {
+    width: 20rem;
+    height: 22rem;
+  }
+  .Data-content {
+    width: 20rem;
+    height: 22rem;
+  }
 }
