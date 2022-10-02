@@ -22,7 +22,7 @@ export default function navbar() {
             <Nav className="justify-content-end" style={{ width: "100%" }}>
               <Link id="navbar-item" to={"/"}>Home</Link>
               <Link id="navbar-item" to={"/services"}>Services</Link>
-              <Link id="navbar-item" to={"#"}>Our Work</Link>
+              <Link id="navbar-item" to={"/projects"}>Our Work</Link>
               <Link id="navbar-item" to={"/contactus"}>Contact</Link>
             </Nav>
           </Navbar.Collapse>

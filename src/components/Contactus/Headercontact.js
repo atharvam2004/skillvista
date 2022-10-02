@@ -7,7 +7,7 @@ function Headerservices() {
       <div className="contact-us-page">
         <div className="contact-map">
           <div className="Home-titles">
-            <h3 id="digital">Contact Us</h3>
+            <h3 id="digital2">Contact Us</h3>
             <div id="ensuring2">
               <span>Extraordinary service for extraordinary customers. </span>{" "}
             </div>

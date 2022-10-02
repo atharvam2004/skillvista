@@ -6,7 +6,7 @@ function Headerservices() {
     <>
       <div className="people2">
         <div className="Home-titles">
-          <h3 id="digital">
+          <h3 id="digital2">
             Our <br />
             Awesome services...{" "}
           </h3>
