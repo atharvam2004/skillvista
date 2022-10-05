@@ -3,7 +3,6 @@
 }
 
 .intersect-div {
-  width: 38rem;
   left: 0;
   z-index: -1;
   /* position: absolute; */
@@ -12,14 +11,14 @@
 .Intersect {
   left: 0rem;
   opacity: 1;
-  width: 35rem;
+  width: 40%;
   position: absolute;
-  margin-top: -2rem;
 }
 
 .our-work {
   position: relative;
-  margin-left: 33rem;
+  margin-left: 35%;
+  width: 70%;
   margin-top: 25rem;
 
   /* bottom: 20rem; */
@@ -76,21 +75,17 @@
   }
 
   .Group1 {
-    width: 20%;
-    margin: auto 0;
+    height: 25%;
+    margin: auto 0 auto 0;
 
   }
 
   .Group-spans {
     width: 75%;
     font-size: 18px;
-    padding: 1.5rem 2rem;
-    display: inline-block;
     width: 70%;
     background: transparent;
-    padding: 1.3rem 3rem 1.3rem 2rem;
-    margin: 2%;
-    margin-bottom: 0;
+
   }
   #span1{
     background: transparent;

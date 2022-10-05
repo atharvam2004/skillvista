@@ -1,6 +1,10 @@
 .Servicesdetails-div {
   margin: 1%;
 }
+.Servicesdetails-div-item {
+
+}
+
 .Services-content {
   width: 22rem;
   height: 31rem;
@@ -61,8 +65,8 @@
 }
 
 .Services-content:hover {
-  transition: all 0.2s ease-out;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  outline: 2px solid blue;
+
 
 }
   

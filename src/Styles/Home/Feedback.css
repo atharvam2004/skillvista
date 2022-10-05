@@ -12,9 +12,6 @@
 }
 
 .Rectangles {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .Rectangle1 {
