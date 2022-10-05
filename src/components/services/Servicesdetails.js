@@ -3,8 +3,10 @@ import "../../Styles/services/Servicesdetails.css";
 import Data from "../../assets/img/Data.png";
 import Assign from "../../assets/img/Assign.png";
 import Video from "../../assets/img/Video.png";
-import Group4 from "../../assets/img/Group4.png";
-import Group5 from "../../assets/img/Group5.png";
+import Group4 from "../../assets/img/techwri.png";
+import Group5 from "../../assets/img/acha.png";
+import Group6 from "../../assets/img/uiux.png";
+
 function Servicesdetails() {
   return (
     <>
@@ -85,6 +87,25 @@ function Servicesdetails() {
 
             <h5>
               Academics Service -<br /> Book chapters writing / QB dev{" "}
+            </h5>
+            <p className="Data-para2">
+              An academic book chapter is a section or division of a book
+              focused on a research theme. It is an expert compilation that
+              provides a balanced view and a perspective on research that is
+              usually scattered in journals and other publications. A book
+              chapter is more broadly focused than a journal article and often
+              has a greater educational value as book chapters often appear in
+              the reading lists of undergraduate and postgraduate students.
+            </p>
+          </div>
+        </div>
+
+        <div className="Servicesdetails-div">
+          <div className="Services-content">
+            <img alt="grp1" className="Group2" src={Group6} />
+
+            <h5>
+              UI/UX Designing -
             </h5>
             <p className="Data-para2">
               An academic book chapter is a section or division of a book
