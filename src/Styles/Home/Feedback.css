@@ -19,8 +19,8 @@
 
 .Rectangle1 {
   background-image: url("../../assets/img/Rectangle1.png");
-  width: 22rem;
-  height: 26rem;
+  width: 23.8981rem;
+  height: 26.5625rem;
   background-size: cover;
   display: block;
   text-align: center;
@@ -30,14 +30,12 @@
 }
 .Rectangle2 {
   background-image: url("../../assets/img/Rectangle2.png");
+  width: 23.8981rem;
+  height: 26.5625rem;
   background-size: cover;
-  width: 22rem;
-  height: 26rem;
   margin: 10% auto ;
-
   text-align: center;
   opacity: 0.8;
-
   display: block;
 }
 
@@ -46,6 +44,7 @@
   margin-top: 9%;
   margin-left: -10%;
 }
+
 .client-review {
   width: 17rem;
   margin-left: 2rem;

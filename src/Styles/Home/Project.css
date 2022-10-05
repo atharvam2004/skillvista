@@ -1,10 +1,11 @@
 .our-projects-div {
-  margin-top: 15rem;
   width: 100%;
-  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(29, 110, 231, 0.66) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 0%,
+    rgba(29, 110, 231, 0.66) 100%
+  );
   padding: 5%;
-
-
 }
 
 .our-projects {
@@ -13,26 +14,6 @@
   left: 0;
   width: 100%;
   justify-content: center;
-
-}
-
-.MobDev {
-  background-image: url("../../assets/img/Group7.png");
-  background-size: cover;
-  width: 21rem;
-  height: 29rem;
-}
-.WebDev {
-  background-image: url("../../assets/img/Group6.png");
-  background-size: cover;
-  width: 21rem;
-  height: 29rem;
-}
-.SoftDev {
-  background-image: url("../../assets/img/Group8.png");
-  background-size: cover;
-  width: 21rem;
-  height: 29rem;
 }
 
 #dev-div {
@@ -41,36 +22,81 @@
   position: static;
   display: flex;
   border-radius: 9px;
+  flex-direction: column;
+  width: 30%;
+  height: 35rem;
+
+}
+.MobDev {
+  background: linear-gradient(
+    153.85deg,
+    rgba(255, 199, 0, 0.553) 18.06%,
+    rgba(255, 0, 212, 0.836) 100.21%
+  );
+}
+.WebDev {
+  background: linear-gradient(
+    154.12deg,
+    rgba(0, 97, 241, 0.91) 54.92%,
+    rgba(0, 209, 255, 0.61) 99.18%
+  );
+}
+.SoftDev {
+  background: linear-gradient(
+    333.52deg,
+    rgba(255, 200, 0, 0.801) 21.23%,
+    rgba(219, 0, 255, 0.5016) 138.97%
+  );
+}
+.our-projects{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+/* identical to box height, or 136% */
+
+
+color: #FFFFFF;
+}
+.projects-para{
+  font-weight: 300;
+  font-size: 12px;
+
 }
 #dev-div:hover {
   transform: scale(1.1);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+#projects-para {
+  padding: 4%;
+  text-align: center;
 
-
-@media only screen and (max-width: 820px){
+}
+.Projectguideimg{
+  width: 100%;
+}
+@media only screen and (max-width: 820px) {
   .our-projects {
     flex-direction: column;
     margin: auto;
   }
   #dev-div {
-    margin: 10% auto ;
+    margin: 10% auto;
     width: 50%;
     height: 34rem;
-
   }
   .our-projects-div {
     margin-top: 10rem;
     left: 0%;
   }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .our-projects {
     flex-direction: column;
   }
   #dev-div {
-    margin: 10% auto ;
+    margin: 10% auto;
     width: 95%;
   }
   .our-projects-div {
@@ -78,4 +104,3 @@
     left: 0%;
   }
 }
-

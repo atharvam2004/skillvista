@@ -6,6 +6,8 @@ import Group2 from "../../assets/img/Group2.png";
 import Group3 from "../../assets/img/Group3.png";
 import Group4 from "../../assets/img/Group4.png";
 import Group5 from "../../assets/img/Group5.png";
+import Group6 from "../../assets/img/Group9.png";
+
 import Intersect from "../../assets/img/Intersect.png";
 
 function Services() {
@@ -23,7 +25,7 @@ function Services() {
           </div>
 
           <div className="work-sections">
-            <span className="Group-spans">
+            <span className="Group-spans" id='span1'>
               Assignments / Project for IT-Comp. Science
             </span>
             <img alt="maged" className="Group1" src={Group2} />
@@ -37,7 +39,7 @@ function Services() {
           </div>
 
           <div className="work-sections">
-            <span className="Group-spans">Video Creation</span>
+            <span className="Group-spans" id='span1'>Video Creation</span>
             <img alt="mageg" className="Group1" src={Group4} />
           </div>
 
@@ -47,6 +49,13 @@ function Services() {
               Academics Service - Book chapters writing / QB development{" "}
             </span>
           </div>
+
+          <div className="work-sections">
+            <span className="Group-spans" id='span1'>Trainings</span>
+            <img alt="mageg" className="Group1" src={Group6} />
+          </div>
+
+          
         </div>
       </div>
   )

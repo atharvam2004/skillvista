@@ -14,7 +14,7 @@
   opacity: 1;
   width: 35rem;
   position: absolute;
-  margin-top: -7rem;
+  margin-top: -2rem;
 }
 
 .our-work {
@@ -28,13 +28,13 @@
 .Group1 {
   width: 7rem;
   display: inline;
+  margin: auto 0;
 }
 
 .Group-spans {
   display: inline-block;
-  width: 70%;
-  background: linear-gradient(90.06deg, rgba(255, 199, 0, 0.75) 1.38%, rgba(255, 255, 255, 0) 131.17%);
-  border-radius: 30px;
+  width: 80%;
+  background: linear-gradient(90deg, rgba(29, 110, 231, 0.6) 0%, rgba(255, 255, 255, 0.14) 86.59%);  border-radius: 30px;
   padding: 1.3rem 3rem 1.3rem 2rem;
   margin: 2%;
   margin-bottom: 0;
@@ -42,9 +42,12 @@
   font-family: "Poppins" sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
 }
-
+#span1{
+  background: linear-gradient(89.93deg, rgba(255, 255, 255, 0.17) -3.13%, rgba(29, 110, 231, 0.6) 99.94%);
+  text-align: end;
+}
 .work-sections {
   width: 90%;
   position: relative;
@@ -74,14 +77,26 @@
 
   .Group1 {
     width: 20%;
-    margin-bottom: 5%;
+    margin: auto 0;
+
   }
 
   .Group-spans {
     width: 75%;
     font-size: 18px;
     padding: 1.5rem 2rem;
+    display: inline-block;
+    width: 70%;
+    background: transparent;
+    padding: 1.3rem 3rem 1.3rem 2rem;
+    margin: 2%;
+    margin-bottom: 0;
   }
+  #span1{
+    background: transparent;
+
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -103,7 +118,11 @@
 
   .Group1 {
     width: 20%;
-    margin-bottom: 5%;
+    margin: auto 0;
+  }
+  #span1{
+    background: transparent;
+
   }
 
   .Group-spans {

@@ -3,12 +3,12 @@
 body {
   overflow-x: hidden;
 }
+#logo-navbar{
+width: 10rem;
+}
+#logo-navbar1{
+  width: 100%;
 
-#navbar-logo {
-  width: 151px;
-  height: 36px;
-  left: 136px;
-  top: 38px;
 }
 
 #navbar-main {
