@@ -72,7 +72,7 @@ function Headerservices() {
 
           <div className="contact-us-content">
             <b> Email Id:</b> <br />
-            inamdar.online@gmail.com
+            contact@skillvista.co.in
             <br />
             Dr. Shabana Inamdar
             <br />

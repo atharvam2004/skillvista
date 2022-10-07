@@ -13,9 +13,7 @@ import Intersect from "../../assets/img/Intersect.png";
 function Services() {
   return (
     <div className="container-intersect">
-        <div className="intersect-div">
           <img alt="mage8" className="Intersect" src={Intersect} />
-        </div>
         <div className="our-work">
           <div className="work-sections">
             <img alt="magea" className="Group1" src={Group1} />
