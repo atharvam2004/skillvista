@@ -1,5 +1,7 @@
 import React from "react";
 import "../Styles/footer.css";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/img/logo.png";
 
 const Footer = () => (
@@ -19,7 +21,7 @@ const Footer = () => (
         <div className="footer-div3" id="footer-divs">
         <h5>Legal</h5>
           <br />
-          <span id="footer-span">Terms & Conditions</span>
+          <Link id="footer-contactus" to={"/terms"}>Terms & Conditions</Link>
           <span id="footer-span">License & Agreement</span>
           <span id="footer-span">Privacy Policy</span>
         </div>
@@ -27,7 +29,9 @@ const Footer = () => (
         <h5>Help</h5>
           <br />
           <span id="footer-span">Support</span>
-          <span id="footer-span">Contact</span>
+          <Link id="footer-contactus" to={"/contactus"}>Contact Us</Link>
+
+          
         </div>
         <div className="footer-div5" id="footer-divs">
         <h5>Social Media</h5>
@@ -87,6 +91,8 @@ const Footer = () => (
               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
             </svg>
           </a>
+          <a href="mailto:contact@skillvista.co.in">contact@skillvista.co.in</a>
+
         </div>
 
         </div>

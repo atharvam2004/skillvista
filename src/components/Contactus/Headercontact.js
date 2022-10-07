@@ -1,30 +1,7 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
 import "../../Styles/Contactus/Headercontact.css";
 
 function Headerservices() {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_grwz04j",
-        "template_qj43agl",
-        form.current,
-        "p6mJg_qMUC2_OCjyo"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
   return (
     <>
       <div className="contact-us-page">
@@ -104,16 +81,22 @@ function Headerservices() {
         </div>
 
         <div className="have-some">
-          <form ref={form} onSubmit={sendEmail}>
+          <form
+            action="https://formsubmit.co/meheratharva49@gmail.com"
+            method="POST"
+            
+          >
             <h4>Have some questions?</h4> <br />
             <label>
               First name: <br />{" "}
             </label>
             <input
               type="text"
+              name="Name"
+              
               className="input-contact"
               placeholder="Enter first name"
-              name="from_name"
+              required
             />
             <label>
               Last name:
@@ -121,9 +104,11 @@ function Headerservices() {
             </label>
             <input
               type="text"
+              name="Last name"
               className="input-contact"
               placeholder="Enter Last name"
-              name="last_name"
+              required
+
             />
             <label>
               Phone:
@@ -133,26 +118,25 @@ function Headerservices() {
               type="text"
               className="input-contact"
               placeholder="Enter Phone number"
-              name="phone"
-            />
+              name="Phone Number"
+              required            />
             <label>
               Email:
               <br />{" "}
             </label>
             <input
-              type="text"
+              type="email"
               className="input-contact"
               placeholder="Enter Email address"
               name="email"
-              
-            />
+              required            />
             <input
               type="textarea"
-              name="message"
+              name="Message"
               className="textarea-contact"
               placeholder="Message"
+              required            />
 
-            />
             <button type="submit" className="button-submit" value="Send">
               Send Message
             </button>
