@@ -135,8 +135,7 @@ function Headerservices() {
               className="textarea-contact"
               placeholder="Message"
               required            />
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"/>
-
+            <input type="hidden" name="_next" value="https://skillvista.co.in/"/>
 
             <button type="submit" className="button-submit" value="Send">
               Send Message
