@@ -7,6 +7,8 @@ import ContactusPage from "../pages/Contactus";
 import TermsPage from "../pages/termsconditions";
 
 import Aboutus from "../pages/Aboutus";
+import Privacy from "../pages/Privacy";
+
 
 
 // import ProjectsPage from "../pages/Ourprojects";
@@ -21,6 +23,8 @@ const ConfigRoutes = () => {
         <Route path="/terms" element={<TermsPage />} />
 
         <Route path="/about" element={<Aboutus />} />
+        <Route path="/Privacy" element={<Privacy />} />
+
 
         {/* <Route path="/projects" element={<ProjectsPage />} /> */}
         ``
