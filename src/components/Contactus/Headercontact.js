@@ -72,11 +72,11 @@ function Headerservices() {
 
           <div className="contact-us-content">
             <b> Email Id:</b> <br />
-            contact@skillvista.co.in
-            <br />
-            Dr. Shabana Inamdar
-            <br />
-            Professor, Academics Guide <br />
+            <a href="mailto:contact@skillvista.co.in" >contact@skillvista.co.in</a>
+            <br /> 
+            <strong>Skill Vista</strong>
+              <br />
+              You have problems, we have the solution.. <br />
           </div>
         </div>
 

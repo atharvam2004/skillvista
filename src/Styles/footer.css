@@ -48,6 +48,10 @@
   text-align: center;
 }
 #contact-icon {
+  color: aliceblue;
+}
+#contact-icon:hover{
+color: rgb(0, 132, 255);
 }
 .contact-links2 {
   width: 9rem;
