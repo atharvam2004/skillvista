@@ -26,7 +26,6 @@ const Footer = () => (
         <div className="footer-div4" id="footer-divs">
         <h5>Help</h5>
           <br />
-          <span id="footer-span">Support</span>
           <Link id="footer-contactus" to={"/contactus"}>Contact Us</Link>
 
           
@@ -98,7 +97,7 @@ const Footer = () => (
         
       </div>
       <div className="copyright-footer">
-        <span>Copyright ©  2022 - 2032  Skill Vista.  All rights reserved.</span>
+        <span>Copyright ©  2022 Skill Vista.  All rights reserved.</span>
       </div>
     </div>
   </div>

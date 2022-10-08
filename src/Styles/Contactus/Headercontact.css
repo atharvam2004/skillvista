@@ -15,6 +15,15 @@
   background: #ffffff;
   padding: 3% 5%;
 }
+input::placeholder{
+  margin-top: -20rem!important;
+  padding: 0 0 30rem 0;
+}
+textarea.textarea-contact {
+  min-height: 115px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
 .input-contact {
   display: block;
   width: 90%;

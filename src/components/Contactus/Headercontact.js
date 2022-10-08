@@ -129,7 +129,7 @@ function Headerservices() {
               placeholder="Enter Email address"
               name="email"
               required            />
-            <input
+            <textarea
               type="textarea"
               name="Message"
               className="textarea-contact"
