@@ -14,7 +14,7 @@ const Footer = () => (
         <div className="footer-div2" id="footer-divs">
           <h5>Information</h5>
           <br />
-          <span id="footer-span">About Us</span>
+          <Link id="footer-contactus" to={"/about"}>About Us</Link>
           <span id="footer-span">Privacy Policy</span>
         </div>
         <div className="footer-div3" id="footer-divs">
