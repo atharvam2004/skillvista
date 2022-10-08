@@ -64,12 +64,13 @@
 @media only screen and (max-width: 600px) {
   
 .Rectangle1 {
-  width: 90%;
+  width: 92%;
+  height: 22.5625rem;
 
 
 }
 .Rectangle2 {
-  width: 90%;
-
+  width: 92%;
+  height: 22.5625rem;
 }
 }

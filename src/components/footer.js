@@ -14,16 +14,14 @@ const Footer = () => (
         <div className="footer-div2" id="footer-divs">
           <h5>Information</h5>
           <br />
-          <span id="footer-span">Plans & Pricing</span>
           <span id="footer-span">About Us</span>
-          <span id="footer-span">Sell Your Content</span>
+          <span id="footer-span">Privacy Policy</span>
         </div>
         <div className="footer-div3" id="footer-divs">
         <h5>Legal</h5>
           <br />
           <Link id="footer-contactus" to={"/terms"}>Terms & Conditions</Link>
           <span id="footer-span">License & Agreement</span>
-          <span id="footer-span">Privacy Policy</span>
         </div>
         <div className="footer-div4" id="footer-divs">
         <h5>Help</h5>
@@ -35,6 +33,7 @@ const Footer = () => (
         </div>
         <div className="footer-div5" id="footer-divs">
         <h5>Social Media</h5>
+        <br />
 
         <div className="contact-links2  ">
           
