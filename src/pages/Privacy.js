@@ -6,7 +6,7 @@ function Privacy() {
   return (
     <>
       <div className="term-header">
-        <h3 id="terms-title"> Privac Policy</h3>
+        <h3 id="terms-title"> Privacy Policy</h3>
       </div>
       <div className="terms-content">
         <h1>Privacy Policy for Skill Vista</h1>
