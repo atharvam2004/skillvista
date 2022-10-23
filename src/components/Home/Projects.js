@@ -2,7 +2,7 @@ import React from "react";
 import "../../Styles/Home/Project.css";
 import MobDev from "../../assets/img/Group7.png";
 import WebDev from "../../assets/img/Group6.png";
-import SoftDev from "../../assets/img/Group8.png";
+import SoftDev from "../../assets/img/gif-p2.gif";
 
 function Projects() {
   return (
@@ -16,18 +16,23 @@ function Projects() {
           <img alt="MobDev" className="Projectimg" src={MobDev} />
           <div className="projects-text" id="projects-para">
             <h4>Website Development</h4>
-            <p className="projects-para" >
-
-            </p>
+            <p className="projects-para"></p>
           </div>
         </div>
 
         <div className="WebDev" id="dev-div">
           <img alt="MobDev" className="Projectimg" src={SoftDev} />
           <div className="projects-text2" id="projects-para">
-          <h4>Software Development</h4>
+            <h5>“Movie Master App”</h5>
             <p className="projects-para">
-
+              There are thousands of movies streamed in different genres, so
+              people prefer to pick the genre based on reading the movie
+              synopsis and getting to know more information about the movie.
+              Studies show that more than two-thirds of people prefer watching
+              movies at home rather than theatres [1]. Also, people are
+              increasingly dependent on smart phones for on-the-spot information
+              and Movie Master App provides all the movie related information at
+              one place.
             </p>
           </div>
         </div>
@@ -35,10 +40,8 @@ function Projects() {
         <div className="SoftDev" id="dev-div">
           <img alt="MobDev" className="Projectimg" src={WebDev} />
           <div className="projects-text3" id="projects-para">
-          <h4> Mobile App Development</h4>
-            <p className="projects-para">
-
-            </p>
+            <h4> Mobile App Development</h4>
+            <p className="projects-para"></p>
           </div>
         </div>
       </div>
