@@ -25,9 +25,7 @@ function Projects() {
           <div className="projects-text2" id="projects-para">
             <h5>Movie Master App</h5>
             <p className="projects-para">
-              There are thousands of movies streamed in different genres, so
-              people prefer to pick the genre based on reading the movie
-              synopsis and getting to know more information about the movie.
+
               Studies show that more than two-thirds of people prefer watching
               movies at home rather than theatres [1]. Also, people are
               increasingly dependent on smart phones for on-the-spot information
