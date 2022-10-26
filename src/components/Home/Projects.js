@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/Home/Project.css";
 import MobDev from "../../assets/img/Group7.png";
-import WebDev from "../../assets/img/Group6.png";
+import WebDev from "../../assets/img/gif-p1.gif";
 import SoftDev from "../../assets/img/gif-p2.gif";
 
 function Projects() {
@@ -13,17 +13,17 @@ function Projects() {
       </div>
       <div className="our-projects">
         <div className="MobDev" id="dev-div">
-          <img alt="MobDev" className="Projectimg" src={MobDev} />
+          <img alt="MobDev" className="Projectimg" src={WebDev} />
           <div className="projects-text" id="projects-para">
-            <h4>Website Development</h4>
-            <p className="projects-para"></p>
+            <h4>swadeskart.in</h4>
+            <p className="projects-para"> India’s first online Managed Marketplace that connects buyers and sellers online and offers a trusted and safe online shopping environment.</p>
           </div>
         </div>
 
         <div className="WebDev" id="dev-div">
           <img alt="MobDev" className="Projectimg" src={SoftDev} />
           <div className="projects-text2" id="projects-para">
-            <h5>“Movie Master App”</h5>
+            <h5>Movie Master App</h5>
             <p className="projects-para">
               There are thousands of movies streamed in different genres, so
               people prefer to pick the genre based on reading the movie
@@ -38,7 +38,7 @@ function Projects() {
         </div>
 
         <div className="SoftDev" id="dev-div">
-          <img alt="MobDev" className="Projectimg" src={WebDev} />
+          <img alt="MobDev" className="Projectimg" src={MobDev} />
           <div className="projects-text3" id="projects-para">
             <h4> Mobile App Development</h4>
             <p className="projects-para"></p>
