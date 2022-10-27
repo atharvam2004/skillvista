@@ -16,7 +16,10 @@ function Projects() {
           <img alt="MobDev" className="Projectimg" src={WebDev} />
           <div className="projects-text" id="projects-para">
             <h4>swadeskart.in</h4>
-            <p className="projects-para"> India’s first online Managed Marketplace that connects buyers and sellers online and offers a trusted and safe online shopping environment.</p>
+            <p className="projects-para"> India’s first online Managed Marketplace that connects buyers and sellers online and offers a trusted and safe online shopping environment.
+            #swadeskart is #India's first online Managed #Marketplace that connects #buyers and #sellers #online and #offers a #trusted and safe online #shopping.
+
+            </p>
           </div>
         </div>
 
@@ -26,8 +29,7 @@ function Projects() {
             <h5>Movie Master App</h5>
             <p className="projects-para">
 
-              Studies show that more than two-thirds of people prefer watching
-              movies at home rather than theatres [1]. Also, people are
+              People are
               increasingly dependent on smart phones for on-the-spot information
               and Movie Master App provides all the movie related information at
               one place.
