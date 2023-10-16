@@ -53,6 +53,7 @@ margin: 0.1rem;
   top: 2rem;
   margin: 1rem;
   display: flex;
+  vertical-align: baseline;
 }
 
 

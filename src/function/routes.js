@@ -11,7 +11,7 @@ import Privacy from "../pages/Privacy";
 
 
 
-// import ProjectsPage from "../pages/Ourprojects";
+import ProjectsPage from "../pages/Ourprojects";
 
 const ConfigRoutes = () => {
   return (
@@ -26,8 +26,8 @@ const ConfigRoutes = () => {
         <Route path="/Privacy" element={<Privacy />} />
 
 
-        {/* <Route path="/projects" element={<ProjectsPage />} /> */}
-        ``
+         <Route path="/projects" element={<ProjectsPage />} /> 
+        
       </Routes>
     </>
   );

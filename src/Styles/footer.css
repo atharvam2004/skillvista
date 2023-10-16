@@ -9,6 +9,17 @@
   color: aliceblue;
   font-family: "Poppins";
 }
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../assets/img/footer.png");
+  background-size: cover;
+  color: aliceblue;
+  font-family: "Poppins";
+}
 #footer-contactus{
   text-decoration: none;
   color: white;
