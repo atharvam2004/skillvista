@@ -41,7 +41,11 @@ function Projects() {
           <img alt="MobDev" className="Projectimg" src={MobDev} />
           <div className="projects-text3" id="projects-para">
             <h4> Mobile App Development</h4>
-            <p className="projects-para"></p>
+            <p className="projects-para">
+            increasingly dependent on smart phones for on-the-spot information
+              and Movie Master App provides all the movie related information at
+              one place.
+            </p>
           </div>
         </div>
       </div>
