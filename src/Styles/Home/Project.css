@@ -10,7 +10,7 @@
 .Projectimg{
   max-height: 26rem;
   object-fit: cover;
-
+  max-width: 100%;
 }
 /* 
 #dev-div:hover .Projectimg{
